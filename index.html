@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Brand</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="bodyTable"></tbody>
+    <tfoot>
+      <tr>
+        <th colspan="4">Total Price</th>
+        <th><input type="text" value="0" disabled name="priceValue" ></th>
+        <th><input type="button" value="Submit" name="submit"></th>
+      </tr>
+    </tfoot>
+</table>
+<script src='./script.js'></script>
+</body>
+</html>

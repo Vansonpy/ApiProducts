@@ -1,0 +1,71 @@
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+table {
+  width: 80%;
+}
+
+textarea {
+  border: 0px;
+  width: 150px;
+  height: 150px;
+  padding-top: 50px;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: center;
+}
+
+input[type='button']{
+  width: 70px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.edit{
+  border: 1px solid;
+  background-color: aliceblue;
+}
+
+.active{
+  opacity: 0.6;
+}
+
+.slider-wrapper{
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding-top: 40px;
+  max-height: 800px;
+}
+.slider-main{
+  position: relative;
+  display: inline-flex;
+  transition: 2s ;
+}
+
+.slider-item img{
+  width: 500px;
+  height: auto;
+  border-radius: 10%;
+}
+
+input[name='dot']{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border-radius: 50%;
+  border: 0px solid;
+  background-color: rgb(63, 58, 58);
+  color: rgb(63, 58, 58);
+}
+
+input[type='text']{
+  width:150px;
+  border: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: center;
+}
